@@ -12,14 +12,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.20.2",
     "@sanity/client": "^3.2.0",
     "@sanity/image-url": "^1.0.1",
     "@stripe/stripe-js": "^1.25.0",
-    "canvas-confetti": "^1.5.1",
-    "@babel/core": "^7.17.9",
     "@types/node": "18.11.10",
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.9",
+    "canvas-confetti": "^1.5.1",
     "next": "13.0.6",
     "next-sanity-image": "^3.2.1",
     "react": "18.2.0",
@@ -31,8 +32,8 @@
     "typescript": "4.9.3"
   },
   "devDependencies": {
+    "@babel/preset-react": "^7.16.7",
     "prettier": "^2.8.0",
-    "sanity-codegen": "^0.9.8",
-    "@babel/preset-react": "^7.16.7"
+    "sanity-codegen": "^0.9.8"
   }
 }
